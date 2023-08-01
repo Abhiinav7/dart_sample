@@ -8,6 +8,7 @@ import 'first_dart.dart';
 import 'list.dart';
 import 'map.dart';
 import 'mapList.dart';
+import 'revision.dart';
 import 'stringExample.dart';
 import 'AreaMaths.dart';
 
@@ -49,14 +50,26 @@ numberInt.subNumber();//-----------constructor end-------//
     print("------------------"); //---------customer end-------//
   }
 firstDart();//----------first dart------//
-  student();
-Area newArea=Area(r: 4, breadth: 6, length: 3,value: 10,total: 100);
+  student();//----------student--------//
+Area newArea=Area(r: 4, breadth: 6, length: 3,value: 10,total: 100);//----Area maths---//
 exampleFun();
-   */
-  // mapList();
 
+   mapList();
 
-mapEx();
+*/
+List cal=calculater(10,5);
+print("sum is ${cal[0]}");
+print("dif is ${cal[1]}");
+print("mul is ${cal[2]}");
+print("div is ${cal[3]}");
+
+StudentsDetails std=StudentsDetails("anu",21);
+String name=std.stdDetail();
+print("student entry:$name");
+
+CustDet cust=CustDet(accNum: 23123, place: "cochi", bankName: "sbi");
+cust.bankDetails();
+cust.details();
 }
 
 

@@ -16,8 +16,8 @@ List<dynamic>allList=[newList1,newList2,newList3];
 print(allList);
 Map<String,List>myMap={"data":newList1,"data2":newList2,"data3":newList3};
 print(myMap);
-// myMap.clear();
-// print(myMap);
+ myMap.clear();
+ print(myMap);
 print(myMap["data3"]![1]);
  */
   Map <String, dynamic>itMap1 = {"name": "anu", "age": 12};
