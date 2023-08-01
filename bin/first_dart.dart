@@ -1,7 +1,6 @@
-import 'package:first_dart/first_dart.dart' as first_dart;
-import 'package:test/expect.dart';
 
-void main(List<String> arguments) {
+
+void firstDart() {
   int myInt = 21;
   print(myInt.toString());
   String myString = "Hallo world good morning";

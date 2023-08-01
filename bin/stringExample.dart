@@ -1,4 +1,4 @@
-void main()
+void stringExample()
 {
   String myString = "say my name";
       print(myString);

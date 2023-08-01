@@ -1,18 +1,4 @@
-void main(){
 
-// CalcuLater calc=CalcuLater();
-// int a=calc.add(5, 3);
-// print("sum is:$a");
-// calc.mul(5, 3);
-// calc.sub(5, 3);
-// calc.division();
-TestBeta testObject=TestBeta("hello");
-testObject.division();
-print(testObject.add(5, 9));
-testObject.number(3, 9);
-testObject.stringFunction();
-
-}
 class CalcuLater {
 
 int add(int a,int b)
