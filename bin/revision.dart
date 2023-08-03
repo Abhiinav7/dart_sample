@@ -55,4 +55,3 @@ void details(){
     print(accNum);
   }
   }
-
