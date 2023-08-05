@@ -8,6 +8,7 @@ import 'first_dart.dart';
 import 'list.dart';
 import 'map.dart';
 import 'mapList.dart';
+import 'new.dart';
 import 'revision.dart';
 import 'std_details.dart';
 import 'stringExample.dart';
@@ -71,15 +72,15 @@ print("student entry:$name");
 CustDet cust=CustDet(accNum: 23123, place: "cochi", bankName: "sbi");
 cust.bankDetails();
 cust.details();
-*/
+
   for(int i=0;i<10;i++) {
     StdDetail data = StdDetail(stdName: "stdName $i", stdAge: 10 + i);
     data.SclPrint();
     data.stdPrint();
   }
-
-
-
+*/
+  exFunction();
+impo();
 
 
 }
