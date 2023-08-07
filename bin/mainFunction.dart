@@ -79,8 +79,9 @@ cust.details();
     data.stdPrint();
   }
 */
-  exFunction();
-impo();
+  //exFunction();
+  impo();
+
 
 
 }
