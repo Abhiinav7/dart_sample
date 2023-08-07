@@ -150,6 +150,34 @@ print("$m1,$m2");
     bb++;
   }while(bb<6);
 
+  int np = 3;
+    do {
+    if (np % 2 != 0) {
+      print("odd number:$np");
+    }
+    n++;
+  } while (np >110);
+    int add=3;
+    do{
+      int sum=add+3;
+      print(sum);
+      add++;
+    }while(add<10);
 
 
+
+
+}
+void forin(){
+  List l1=[1,2,3,4];
+  for(var y in l1){
+    print(y);
+  }
+  List l2=[12,43,54,34,16];
+  int sum=0;
+  for(int i in l2){
+    sum=sum+i;
+
+  }
+  print("sum of all no:$sum");
 }

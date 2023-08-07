@@ -9,6 +9,7 @@ import 'list.dart';
 import 'map.dart';
 import 'mapList.dart';
 import 'new.dart';
+import 'newSample.dart';
 import 'revision.dart';
 import 'std_details.dart';
 import 'stringExample.dart';
@@ -80,7 +81,10 @@ cust.details();
   }
 */
   //exFunction();
-  impo();
+  //impo();
+  //forin();
+
+
 
 
 
