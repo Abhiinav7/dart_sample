@@ -143,6 +143,12 @@ print("$m1,$m2");
     l++;
   }while(l<1);
 
+  String hy="mrng";
+  int bb=5;
+  do{
+    print("gd $hy");
+    bb++;
+  }while(bb<6);
 
 
 
