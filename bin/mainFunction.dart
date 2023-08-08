@@ -80,7 +80,7 @@ cust.details();
     data.stdPrint();
   }
 */
-  //exFunction();
+exFunction();
   //impo();
   //forin();
 

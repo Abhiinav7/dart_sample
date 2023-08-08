@@ -1,6 +1,7 @@
 import 'package:test/expect.dart';
 
 void exFunction() {
+  /*
   String newStrings = "hy abcd";
   print(newStrings.toUpperCase());
   print(newStrings.isEmpty);
@@ -17,7 +18,7 @@ print(newStrings.length);
   // double muyDouble=2.0;
 
   bool myBool = false;
-
+*/
   List <int> myList = [1, 2];
   List<String>newList = ["hy", "hlo"];
   List<bool> myBool1 = [false, true];
@@ -32,12 +33,16 @@ print(newStrings.length);
     "data3": myBool1,
     "data4": hyList
   };
-  hloMap.forEach((key, value)
+ print(hloMap["data"]![1]);
+hloMap.forEach((key, value)
   {
     print("$key:$value");
   });
   mapNew.forEach((k, v) {print("${k}:${v}");});
+
+
   List<Map>hloList = [mapNew, hyMap, hloMap];
+  print(hloList[1]["age"].toString());
 
 }bool hlooFunction(String nn) {
   print("hy");
