@@ -1,4 +1,4 @@
-import 'package:test/expect.dart';
+
 
 void exFunction() {
   /*
@@ -173,16 +173,64 @@ print("$m1,$m2");
 
 
 }
-void forin(){
-  List l1=[1,2,3,4];
-  for(var y in l1){
+void forin() {
+  List l1 = [1, 2, 3, 4];
+  for (var y in l1) {
     print(y);
   }
-  List l2=[12,43,54,34,16];
-  int sum=0;
-  for(int i in l2){
-    sum=sum+i;
-
+  List l2 = [12, 43, 54, 34, 16];
+  int sum = 0;
+  for (int i in l2) {
+    sum = sum + i;
   }
   print("sum of all no:$sum");
+  List<int>kk = [12, 43, 534, 321, 43, 41, 56, 76, 7, 57, 5];
+  for (var odd in kk) {
+    if (odd == 321) {
+      print(kk);
+    }
+  }
+
+
+
+
 }
+void whereF() {
+  List<String>list1 = ["abhi", "abhin", "anu", "akshay"];
+  Iterable<String> abh = list1.where((e) => e.contains("abh"));
+  print(abh);
+
+
+
+  //Map<String,dynamic>hhj={"name":"abhi","name1":"abhya"};
+  //List<String> ab=hhj.whare((key, value) => false);
+
+
+
+
+  List<int>numList = [1, 98, 345, 23, 564, 234, 231, 556, 657, 45];
+  Iterable<int>even = numList.where((n) => n % 2 == 0);
+  print(even);
+  Map<String, List>mapNew = {"data1": list1, "data2": numList};
+  print(mapNew["data2"]![4]);
+
+}
+void fn(){
+  List<int>lop=[23,54,2332,312312,4434,5435435,56,67,76];
+  int s=0;
+  for(var hh in lop){
+        s=s+hh;
+    }
+  print("sum is:$s");
+  }
+  void mEnd(){
+  List<String>hoP=["anu","anurag","anuNandha","aishu","bidov"];
+  Iterable<String>a=hoP.where((e) => e.contains("a"));
+  print(a);
+
+  List<int>nmn=[12,43,45,56,45,443,45,54,65,76,87,65,54];
+  Iterable<int>th=nmn.where((y) => y>100);
+  print(th);
+  }
+
+

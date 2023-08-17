@@ -79,10 +79,16 @@ cust.details();
     data.SclPrint();
     data.stdPrint();
   }
-*/
+
 exFunction();
-  //impo();
-  //forin();
+  impo();
+ forin();
+ whereF();
+ */
+
+ //fn();
+ mEnd();
+
 
 
 
